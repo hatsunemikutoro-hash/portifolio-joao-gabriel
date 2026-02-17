@@ -9,7 +9,7 @@ btn.addEventListener("click", () => {
 
         if (nameIn.value === "githubmidnight1" && passIn.value === "rockyoutxt")
         {
-            window.alert("LOGIN");
+            window.location.href = "dashboard.html";
         } 
         else {
             output.textContent = "Senha ou login incorretos."
